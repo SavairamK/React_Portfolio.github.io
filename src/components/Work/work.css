@@ -1,0 +1,51 @@
+.my-work {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.my-work-title h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#bdc3c7, #2c3e50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.work-details p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.work-details p span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.company-logo img {
+    height: 15rem;
+    border-radius: 20%;
+}
+
+@media (max-width: 768px){
+    .my-work{
+        gap: 80px;
+        margin: 50px 70px;
+        /* align-items: start; */
+    }
+    .work-details{
+        margin-top: -30px;
+    }
+    .work-details p{
+        text-align: left;
+    }
+}

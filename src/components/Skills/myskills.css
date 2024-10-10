@@ -1,0 +1,49 @@
+.my-skill {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.skill-title h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#bdc3c7, #2c3e50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-card {
+    width: 23rem;
+    height: 10rem;
+    background-color: black;
+}
+
+.card {
+    margin: 1rem;
+    border: none;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 768px) {
+    .my-skill {
+        gap: 80px;
+        margin: 50px 70px;
+        /* align-items: start; */
+    }
+
+    .my-skill-title h1 {
+        font-size: 50px;
+        padding: 0%;
+    }
+}
